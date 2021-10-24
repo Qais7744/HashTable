@@ -6,7 +6,7 @@ import org.junit.Test;
 public class MyHashMapTest {
 
 	@Test
-	public void givenSentenceWhenWordAreAddedToListShouldReturnWord() {
+	public void givenSentenceWhenWordAreAddedToListShouldReturnWordFrequency() {
 		String sentence = "to be not to be";
 		MyHashMap<String, Integer> myHashMap = new MyHashMap<String, Integer>();
 		String[] words = sentence.toLowerCase().split(" ");
