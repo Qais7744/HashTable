@@ -34,6 +34,6 @@ public class MyLinkedList<K> {
 
 	@Override
 	public String toString() {
-		return "MyLinkedList [head=" + head + ", tail=" + tail + "]";
+		return "MyLinkedList [head = " + head + ", tail = " + tail + "]";
 	}
 }

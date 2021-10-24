@@ -11,7 +11,7 @@ public class MyHashMapTest {
 		MyHashMap<String, Integer> myHashMap = new MyHashMap<String, Integer>();
 		String[] words = sentence.toLowerCase().split(" ");
 		for (String word : words) {
-			Integer  value = myHashMap.get(word);
+			Integer value = myHashMap.get(word);
 			if (value == null)
 				value = 1;
 			else
