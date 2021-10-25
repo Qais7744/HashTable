@@ -21,6 +21,15 @@ public class MyLinkedHashMapTest {
 		}
 		myLinkedHashMap.delete("avoidable");
 		System.out.println(myLinkedHashMap);
-		Assert.assertEquals(0, "avoidable");
+		Integer hash = myLinkedHashMap.get("avaidable");
+		boolean result;
+		if (hash == null) {
+			result = true;
+			System.out.println("Case is True");
+		} else {
+			result = false;
+			System.out.println("Case is False");
+		}
+		Assert.assertTrue(result);
 	}
 }
